@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Aims Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo"></a>
+
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+    
+ </section>   
+
+ <!--Home page-->
+
+<!--cart page-->
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Delete</td>
+                <td>Image</td>
+                <td>Products</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/bok2.jpg" alt=""></td>
+                <td>book</td>
+                <td>$100</td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/cd3.png" alt=""></td>
+                <td>cd</td>
+                <td>$100</td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/cd3.png" alt=""></td>
+                <td>cd</td>
+                <td>$100</td>
+                <td><input type="number" value="1"></td>
+                <td>$100</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!--cart add-->
+<section id="cart-summary">
+    <div class="summary-box">
+      <h3>Your Cart</h3>
+      <table>
+        <tr>
+          <td>Total Bill</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Shipping Fee</td>
+          <td>30$</td>
+        </tr>
+        <tr class="total-row">
+          <td><strong>Total</strong></td>
+          <td><strong>$330</strong></td>
+        </tr>
+      </table>
+      <button class="checkout-btn" onclick="window.location.href='checkout.html'">Check Out</button>
+    </div>
+  </section>
+</body>
+</html>
